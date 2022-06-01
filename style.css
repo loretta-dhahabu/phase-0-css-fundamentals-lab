@@ -3,3 +3,38 @@ body {
   height: 100%;
   margin: 0;
 }
+h1{
+  text-align: center;
+}
+figure img{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 900px;
+}
+nav{
+  display: flex;
+  justify-content: center;
+}
+nav a{
+  background-color: aquamarine;
+  text-align: center;
+  padding: 10px;
+}
+figcaption{
+  font-size: 14px;
+  text-align: center;
+}
+#featured-property p{
+  max-width: 800px;
+  text-align: center;
+}
+#details{
+  display: flex;
+} 
+#details div{
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
+}
